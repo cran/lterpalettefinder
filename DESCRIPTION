@@ -2,7 +2,7 @@ Package: lterpalettefinder
 Type: Package
 Title: Extract Color Palettes from Photos and Pick Official LTER
         Palettes
-Version: 1.0.0
+Version: 1.1.0
 Authors@R: c(
   person(given = "Nicholas J", 
          family = "Lyon",
@@ -31,7 +31,7 @@ Encoding: UTF-8
 LazyData: true
 Language: en-US
 BugReports: https://github.com/lter/lterpalettefinder/issues
-RoxygenNote: 7.2.1
+RoxygenNote: 7.2.3
 Depends: R (>= 3.5)
 Imports: dplyr, ggplot2, graphics, grDevices, jpeg, magick, magrittr,
         png, stats, tools, tidyr, tiff
@@ -39,11 +39,11 @@ Suggests: knitr, rmarkdown, testthat (>= 3.0.0)
 VignetteBuilder: knitr
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2022-12-05 15:23:46 UTC; lyon
+Packaged: 2023-01-20 16:46:59 UTC; lyon
 Author: Nicholas J Lyon [aut, cre] (<https://orcid.org/0000-0003-3905-1078>),
   Gabe De La Rosa [ctb],
   Julien Brun [ctb] (<https://orcid.org/0000-0002-7751-6238>),
   National Science Foundation [fnd] (NSF 1929393, 09/01/2019 -
     08/31/2024)
 Repository: CRAN
-Date/Publication: 2022-12-06 08:00:05 UTC
+Date/Publication: 2023-01-20 17:00:02 UTC
